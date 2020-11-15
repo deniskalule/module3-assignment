@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+#navbarNavDropdown ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+#navbarNavDropdown li {
+  list-style: none;
+}
+#navbarNavDropdown li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: block;
+}
+#navbarNavDropdown li:hover {
+  background-color: #555;
+}
